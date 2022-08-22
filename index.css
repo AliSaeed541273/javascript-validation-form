@@ -1,0 +1,58 @@
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000px;
+
+}
+#box{
+    background-color: rgb(137, 151, 142);
+     border-radius: 20px;
+    border: 2px solid lightslategray;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 400px;
+height: 500px;
+}
+#box h2{
+    text-align: center;
+    font-family: serif;
+    font-size: 30px;
+}
+#box label{
+    margin-left: 160px;
+    font-size: 25px;
+    font-family: serif;
+    
+}
+#box input[type=email]{
+    margin-top: 10px;
+    margin-left: 65px ;
+    font-size: 16px;
+    color: black;
+padding: 5px;
+width: 250px ;
+height: 20px;
+}
+#box input[type=password]{
+    margin-top: 10px;
+    margin-left: 65px ;
+    font-size: 16px;
+    color: black;
+
+padding: 5px;
+width: 250px ;
+height: 20px;
+}
+#box input[type=checkbox]{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+#box button{
+    margin-left: 120px;
+    padding: 7px;
+    width: 150px;
+    margin-top: 50px;
+
+}
